@@ -29,7 +29,7 @@ const handleSubmit = (e)=> {
               TVMAZE
             </Link>
             <Link to="/tvshows" className="text-white-50">
-              Tv shows
+              TvShows
             </Link>
           </div>
           <FiSearch

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Container, Image, Row, Col } from "react-bootstrap";
+import { Container, Image} from "react-bootstrap";
 import { PiTelevisionBold } from "react-icons/pi";
 import { FaBookOpen } from "react-icons/fa";
 import Loader from "../utils/Loader";
