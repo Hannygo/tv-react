@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Image, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Loader from "../Utils/Loader";
-import TvCard from "../Component/TvCard";
+import Loader from "../utils/Loader";
+import TvCard from "../component/TvCard";
 
 export default function Home() {
   const [data, setData] = useState([]);

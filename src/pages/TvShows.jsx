@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
-import TvCard from "../Component/TvCard";
-import Loader from "../Utils/Loader";
+import TvCard from "../component/TvCard";
+import Loader from "../utils/Loader";
 
 export default function Tvshows() {
   const [data, setData] = useState([]);
